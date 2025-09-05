@@ -41,7 +41,39 @@ h1 {
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
   margin: 20px 0;
 }
+.dice {
+  font-size: 8rem;
+  color: #333;
+}
+button {
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+button:hover {
+  background-color: #45a049;
+}
 button {
     font-size: 1rem;
     padding: 10px 20px;
+  }   
+  /* Responsive Design */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
   }
+
+  .dice {
+    font-size: 5rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
