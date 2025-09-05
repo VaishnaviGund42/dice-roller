@@ -34,6 +34,13 @@ h1 {
   color: #333;
 
 }
+.dice-box {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  margin: 20px 0;
+}
 button {
     font-size: 1rem;
     padding: 10px 20px;
