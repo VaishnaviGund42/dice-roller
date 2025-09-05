@@ -1,0 +1,94 @@
+/* Reset margins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #83a4d4, #b6fbff);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Container styling */
+.container {
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Title */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Dice styling */
+.dice-box {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  margin: 20px 0;
+}
+
+.dice {
+  font-size: 8rem;
+  color: #333;
+}
+
+/* Button styling */
+button {
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: white;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .dice {
+    font-size: 5rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
